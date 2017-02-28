@@ -24,9 +24,17 @@ int main() {
 	double numbers[4] = {4.5, 2.3, 8.1, 7.2};
 
 	for (int i = 0; i < 4; i++) {
-		cout << "element at index " << i << ": " << numbers[i] << endl;
+		cout << "Element at index " << i << ": " << numbers[i] << endl;
 	}
 
+	cout << endl << "Initialization with zero values" << endl;
+	cout << "===================" << endl;
+
+	int numberArray[8] = {};
+
+	for (int i = 0; i < 8; i++) {
+		cout << "Element at index " << i << ": " << numberArray[i] << endl;
+	}
 
 	return 0;
 }
