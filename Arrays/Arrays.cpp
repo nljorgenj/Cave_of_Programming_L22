@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -35,6 +36,16 @@ int main() {
 	for (int i = 0; i < 8; i++) {
 		cout << "Element at index " << i << ": " << numberArray[i] << endl;
 	}
+
+	cout << endl << "Initialization with string values" << endl;
+	cout << "===================" << endl;
+	// Array of strings
+	string texts[] = { "apple", "banana", "orange" };
+
+	for (int i = 0; i < 3; i++) {
+		cout << "Element at index " << i << ": " << texts[i] << endl;
+	}
+
 
 	return 0;
 }
